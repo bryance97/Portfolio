@@ -1,0 +1,180 @@
+:root {
+    --text-center: center;
+    --relative-position: relative;
+    --left-orientation: 80%;
+    --initiate-flex: flex;
+    --width-50: 50%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgb(42, 216, 65);
+    padding: 20px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 20px 25px;
+    font-size: 36px;
+}
+
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+    margin: 10px 15px;
+    font-weight: lighter;
+    font-size: 2.55vw;
+}
+
+.hero-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: var(--relative-position);
+}
+
+#About-Me {
+    display: var(--initiate-flex);
+    margin: 30px;
+    justify-content: center;
+}
+
+#About-Me h2 {
+    text-align: var(--text-center);
+    margin-right: 20px;
+}
+
+.about-header {
+    border-right: 3px solid black;
+    margin: 50px;
+    padding: 5px;
+    position: static;
+}
+
+.about-p {
+    margin: 50px;
+    padding: 5px;
+    position: static;
+    font-size: 20px;
+}
+
+#Portfolio {
+    margin: 30px;
+    padding: 0px;
+    justify-content:center;
+    font-size: 25px;
+}
+
+#Portfolio h2 {
+    text-align: var(--text-center);
+    margin-right: 20px;
+}
+
+.Portfolio-header {
+    border-bottom: 3px solid black;
+    margin: 10px;
+    padding: 5px;
+    width: var(--width-50);
+    left: 26%;
+}
+
+.run-buddy-link, .refactor-link, .recipe-link {
+    padding: 25px;
+    position: var(--relative-position);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.run-buddy-link img, .refactor-link img, .recipe-link img {
+    border: 3px solid ;
+    width: 70%;
+    height: 60%;
+    left: 16%;
+    position: var(--relative-position);
+}
+
+
+.text-over-img-1, .text-over-img-2, .text-over-img-3 {
+    position: var(--relative-position);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    left: 46%;
+}
+
+
+.contact-header {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#Contact-Me nav ul {
+    margin: 15px;
+    padding: 0px;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+  
+/* FOOTER STYLES START */
+footer {
+    background: rgb(42, 216, 65);
+    padding: 30px 25px;
+    display: var(display-inside, text-center);
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+footer h2 {
+    color: #024e76;
+    font-size: 20px;
+    text-align: center;
+}
+/* END FOOTER STYLES */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+ 
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+}
