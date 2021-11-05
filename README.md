@@ -12,7 +12,7 @@ https://bryance97.github.io/Portfolio/
 
 # Screenshot of my application
 
-![](./assets/images/portfolio.jpg)
+![](./assets/images/portfolio.png)
 
 
 
