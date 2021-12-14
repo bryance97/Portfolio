@@ -116,7 +116,7 @@ header nav ul a {
     text-decoration: underline;
 }
 
-.run-buddy-link img, .refactor-link img, .recipe-link img {
+.run-buddy-link img, .refactor-link img, .recipe-link img, .crypto-world-link img, .weather-dashboard-link img {
     border: 3px solid ;
     width: 70%;
     height: 60%;
@@ -125,7 +125,7 @@ header nav ul a {
 }
 
 
-.text-over-img-1, .text-over-img-2, .text-over-img-3 {
+.text-over-img-1, .text-over-img-2, .text-over-img-3, .text-over-img-4, .text-over-img-5 {
     position: var(--relative-position);
     margin-top: 10px;
     margin-bottom: 10px;
